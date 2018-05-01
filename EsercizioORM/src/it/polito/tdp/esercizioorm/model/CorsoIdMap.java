@@ -28,6 +28,10 @@ public class CorsoIdMap {
 		map.put(codins, corso);
 	}
 	
+	public Corso get(String codins) {
+		return map.get(codins);
+	}
+	
 	
 	
 	
